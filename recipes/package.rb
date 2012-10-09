@@ -34,3 +34,4 @@ template "/etc/redis/redis.conf" do
   mode 0644
   notifies :restart, resources(:service => "redis")
 end
+

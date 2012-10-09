@@ -21,6 +21,7 @@ default['redis']['bind']         = "127.0.0.1"
 default['redis']['port']         = "6379"
 default['redis']['config_path']  = "/etc/redis/redis.conf"
 default['redis']['daemonize']    = "no"
+default['redis']['basedir']      = "/var/lib/redis"
 default['redis']['timeout']      = "300"
 default['redis']['loglevel']     = "notice"
 default['redis']['password']     = nil
