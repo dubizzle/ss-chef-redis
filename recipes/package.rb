@@ -32,6 +32,6 @@ template "/etc/redis/redis.conf" do
   owner "root"
   group "root"
   mode 0644
-  notifies :restart, resources(:service => "redis-server")
+  notifies :restart, resources(:service => "redis-server"), :immediately
 end
 
